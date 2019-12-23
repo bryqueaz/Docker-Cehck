@@ -1,4 +1,4 @@
-# Basic install Docker and Swarm CentOS7
+# Basic install Docker and Swarm on CentOS7
 
 **Paquetes**
 
@@ -12,11 +12,11 @@
 
 ## Levantar el servicio de docker
 ```
-[root@docker-server bryan]#systemctl start Docker
+[root@docker-server bryan]# systemctl start Docker
 ```
 ## Habiliar de manera persistente el servicio de Docker
 ```
-[root@docker-server bryan]#systemctl enable docker
+[root@docker-server bryan]# systemctl enable docker
 ```
 
 ## Agrega reglas al Firewall
@@ -30,9 +30,18 @@
 
 ## Reinicia los servicio de firewall y docker
 ```
-[root@docker-server bryan]#firewall-cmd --reload
+[root@docker-server bryan]# firewall-cmd --reload
 ```
 
 ```
-[root@docker-server bryan]#systemctl restart docker
+[root@docker-server bryan]# systemctl restart docker
+```
+
+## Busca la imagen
+```
+[root@docker-server bryan]# docker search centos
+```
+## Descarga la imagen
+```
+[root@docker-server bryan]# docker pull centos
 ```
