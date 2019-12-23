@@ -32,12 +32,12 @@ OK | hungry_carson_mem_pct=0.03 hungry_carson_cpu_pct=0.0 hungry_carson_net_in=7
 
 ## Estado del node de swarm
 ```
-[root@docker-server bryan]# python3 check_swarm.py  --swarm  
+[root@docker-server bryan]# python3 check_swarm.py --swarm  
 OK: Node is in a swarm
 ```
 
 ## Estado del servicio en cluster en swarm
 ```
-[root@docker-server bryan]# python3 check_swarm.py    --service web1
+[root@docker-server bryan]# python3 check_swarm.py --service web1
 OK: Service web1 is up and running
 ```
