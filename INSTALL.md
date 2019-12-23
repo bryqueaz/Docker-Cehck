@@ -98,6 +98,16 @@ Para ello se debe copiar la linea de Node Manager y ejecutar en los worker 1(192
 >     192.168.8.84:2377
 This node joined a swarm as a worker.
 ```
+### Paso#4 Desplegar un servicio
+
+Aquí, implementaremos un servicio de servidor web con  cinco contenedores en modo Docker Swarm.
+
+De debe correr en el Node manager
+
+```
+[root@docker-server bryan]# docker service create --name web1 -p 80:80 --replicas 5 nginx
+pzf9z0an5yj7kl8yvaonfvvl7
+```
 
 
 
