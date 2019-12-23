@@ -118,6 +118,11 @@ pzf9z0an5yj7kl8yvaonfvvl7
 * []() docker node ls -> Información de los nodos unidos al swarm
 * []() docker node ps -> Muestra la informacion de los trabajos por nodo
 
+## Comandos para probar usando unix socket 
+
+* []() curl --unix-socket /var/run/docker.sock http://127.0.0.1/swarm -> Obtiene la informacion del swarm
+* []() curl --unix-socket /var/run/docker.sock http://127.0.0.1/services/web1 -> Obtiene la información del servicio en cluster
+
 
 
 
