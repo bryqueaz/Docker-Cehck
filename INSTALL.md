@@ -34,7 +34,7 @@
 [root@docker-server bryan]# systemctl restart docker
 ```
 
-## Busca la imagen
+## Busca la imagen
 ```
 [root@docker-server bryan]# docker search centos
 ```
