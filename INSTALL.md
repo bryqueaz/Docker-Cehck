@@ -31,9 +31,6 @@
 ## Reinicia los servicio de firewall y docker
 ```
 [root@docker-server bryan]# firewall-cmd --reload
-```
-
-```
 [root@docker-server bryan]# systemctl restart docker
 ```
 
