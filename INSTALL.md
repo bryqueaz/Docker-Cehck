@@ -9,3 +9,13 @@
 * []() yum install docker
 * []() pip3 install docker 
 * []() pip3 install check_docker
+
+
+## Levantar el servicio de docker
+```
+[root@docker-server bryan]#systemctl start Docker
+```
+## Habiliar de manera percistente el servicio de Docker
+```
+[root@docker-server bryan]#systemctl enable docker
+```
