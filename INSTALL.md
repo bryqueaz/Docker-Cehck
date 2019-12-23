@@ -45,6 +45,11 @@
 
 ## Crea un contener usando la imagen de centos
 ```
-[root@docker-server bryan]# docker run   --name=centos7prueba  -d -t   docker.io/centos
+[root@docker-server bryan]# docker run --name=centos7prueba -d -t docker.io/centos
 ```
+
+## Instalar Node Swarp
+
+Para ello se deben tener 3 maquinas instalas con Docker
+
 
