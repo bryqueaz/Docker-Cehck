@@ -109,6 +109,16 @@ De debe correr en el Node manager
 pzf9z0an5yj7kl8yvaonfvvl7
 ```
 
+## Comandos para probar
+
+* []() docker ps -> Muestra los contendores que estan activos
+* []() docker stats ->  Metricas de los contendores activos, memoria, cpu, I/O
+* []() docker service  ps web1 -> Muestra el estado del servicio creado y los trabajos
+* []() docker info -> Información del docker container
+* []() docker node ls -> Información de los nodos unidos al swarm
+* []() docker node ps -> Muestra la informacion de los trabajos por nodo
+
+
 
 
 
