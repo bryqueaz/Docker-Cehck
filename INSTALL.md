@@ -50,6 +50,9 @@
 
 ## Instalar Node Swarp
 
-Para ello se deben tener 3 maquinas instalas con Docker
+Para ello se deben tener 3 maquinas instalas con Docker, con CentOS7
 
+* []() Manager Node IP: 192.168.8.84
+* []() Worker Node1 IP:  192.168.8.14
+* []() Worker Node2 IP:  192.168.8.15
 
