@@ -42,3 +42,9 @@
 ```
 [root@docker-server bryan]# docker pull centos
 ```
+
+## Crea un contener usando la imagen de centos
+```
+[root@docker-server bryan]# docker run   --name=centos7prueba  -d -t   docker.io/centos
+```
+
