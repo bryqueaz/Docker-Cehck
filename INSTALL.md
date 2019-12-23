@@ -75,16 +75,31 @@ To add a worker to this swarm, run the following command:
 
 To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
 ```
-### Paso #2
+### Paso #2(-worker01)
 
 Una vez inializado el Manager Node, el siguiente paso sería unir el worker node al node Manager.
 
-Para ello se debe copiar la linea de Node Manager y ejecutar en los worker 1 y worker 2
+Para ello se debe copiar la linea de Node Manager y ejecutar en los worker 1(192.168.8.14) y worker 2(192.168.8.15)
 
 ```
 [root@docker-worker01 ~]#  docker swarm join --token SWMTKN-1-1i6s07uy1oho1ydn2m2vv5tudd2zhldhgisi6gq5m5ny3938nk-be0rx0pbsbtuf3dh0xb0xcum4     192.168.8.84:2377
 This node joined a swarm as a worker.
 ```
+
+### Paso #3(-worker02)
+
+Una vez inializado el Manager Node, el siguiente paso sería unir el worker node al node Manager.
+
+Para ello se debe copiar la linea de Node Manager y ejecutar en los worker 1(192.168.8.14) y worker 2(192.168.8.15)
+
+```
+[root@docker-worker02 ~]# docker swarm join \
+>     --token SWMTKN-1-1i6s07uy1oho1ydn2m2vv5tudd2zhldhgisi6gq5m5ny3938nk-be0rx0pbsbtuf3dh0xb0xcum4 \
+>     192.168.8.84:2377
+This node joined a swarm as a worker.
+```
+
+
 
 
 
