@@ -59,6 +59,9 @@ Para ello se deben tener 3 maquinas instalas con Docker, con CentOS7
 ## Inicalizar el nodo de Swarm
 
 ### Paso #1
+
+Se debe Inicalizar el nodo de swarp, el mismo se debe ejecutar en Manager Node
+
 ```
 [root@docker-server bryan]# docker swarm init --advertise-addr 192.168.8.84
 
