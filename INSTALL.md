@@ -6,7 +6,7 @@
 * []() yum install yum-utils
 * []() yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 * []() yum install python-pip
-* []() yum install docker
+* []() yum install docker docker-ce-cli containerd.io
 * []() pip3 install docker 
 * []() pip3 install check_docker
 
