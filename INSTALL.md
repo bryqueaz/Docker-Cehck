@@ -12,7 +12,7 @@
 
 ## Levantar el servicio de docker
 ```
-[root@docker-server bryan]# systemctl start Docker
+[root@docker-server bryan]# systemctl start docker
 ```
 ## Habiliar de manera persistente el servicio de Docker
 ```
